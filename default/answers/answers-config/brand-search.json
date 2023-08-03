@@ -175,6 +175,7 @@
     }
   ],
   "additionalSearchablePlaces": [],
+  "richTextV2ToHTML": true,
   "querySuggestions": {
     "disablePopularQueries": false,
     "verticalPromptsOnEmpty": false,
