@@ -1,6 +1,8 @@
 {
+  "$id": "newRestaurantContent",
   "$schema": "https://schema.yext.com/config/km/entity-template/v2",
   "content": {
+    "attire": "CASUAL",
     "c_primaryCTA": {
       "label": "Click to Order",
       "link": "http://order.turtleheadtacos.com",
@@ -11,6 +13,13 @@
         "description": "Order two tacos and get free tots on Tuesdays.",
         "photo": {
           "height": 294,
+          "thumbnails": [
+            {
+              "height": 294,
+              "url": "http://a.mktgcdn.com/p-sandbox/-OGscdtgL2FHqupGLj0pIDSoJqLHAtzy5ER0W48rTVI/196x294.jpg",
+              "width": 196
+            }
+          ],
           "url": "http://a.mktgcdn.com/p-sandbox/-OGscdtgL2FHqupGLj0pIDSoJqLHAtzy5ER0W48rTVI/196x294.jpg",
           "width": 196
         },
@@ -21,6 +30,13 @@
         "description": "Buy one Champagne Margarita and get your second on the house. Cheers!",
         "photo": {
           "height": 294,
+          "thumbnails": [
+            {
+              "height": 294,
+              "url": "http://a.mktgcdn.com/p-sandbox/2gHieyTIXQg0xUsExIhqBauGAcfJ0HFNm9ZOTkW-_nk/196x294.jpg",
+              "width": 196
+            }
+          ],
           "url": "http://a.mktgcdn.com/p-sandbox/2gHieyTIXQg0xUsExIhqBauGAcfJ0HFNm9ZOTkW-_nk/196x294.jpg",
           "width": 196
         },
@@ -31,6 +47,13 @@
         "description": "Having a party? Let us help! Call today to inquire about our Fiesta Package.",
         "photo": {
           "height": 294,
+          "thumbnails": [
+            {
+              "height": 294,
+              "url": "http://a.mktgcdn.com/p-sandbox/Bu4qxytV6lkBVLLJd5CK39Ox9hHkR-kw9NeybAignXU/196x294.jpg",
+              "width": 196
+            }
+          ],
           "url": "http://a.mktgcdn.com/p-sandbox/Bu4qxytV6lkBVLLJd5CK39Ox9hHkR-kw9NeybAignXU/196x294.jpg",
           "width": 196
         },
@@ -38,8 +61,7 @@
         "url": "[[landingPageUrl]]"
       }
     ],
-    "attire": "CASUAL",
-    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? We're the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
+    "description": "Hungry for Tacos? Fan of \"Chips \u0026 Guac\"? We\u0027re the destination for you. With locations globally, we pride ourselves in providing our customers with the most delicious, fresh tacos daily. Visit us in [[address.city]], [[address.region]] today!",
     "featuredMessage": {
       "description": "Order online today",
       "url": "http://www.turtleheadtacos.com"
@@ -48,6 +70,11 @@
       "image": {
         "height": 150,
         "thumbnails": [
+          {
+            "height": 150,
+            "url": "http://a.mktgcdn.com/p-sandbox/CjQapuI3u8FssOgeIY83nMakZSauz1mZIP7KOAHVR7Y/150x150.png",
+            "width": 150
+          },
           {
             "height": 94,
             "url": "http://a.mktgcdn.com/p-sandbox/CjQapuI3u8FssOgeIY83nMakZSauz1mZIP7KOAHVR7Y/94x94.png",
@@ -63,6 +90,5 @@
   "entityTypes": [
     "restaurant"
   ],
-  "name": "New Restaurant Content",
-  "$id": "newRestaurantContent"
+  "name": "New Restaurant Content"
 }
